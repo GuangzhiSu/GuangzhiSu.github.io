@@ -213,6 +213,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/jupyter-notebook/";
           
         },
+      },{id: "post-co-founded-dku-finance-club",
+        
+          title: "Co-founded DKU Finance Club",
+        
+        description: "Co-founded the DKU Finance Club, establishing a platform for students interested in finance and economics.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/dku-finance-club/";
+          
+        },
       },{id: "post-a-post-with-custom-blockquotes",
         
           title: "a post with custom blockquotes",
@@ -257,6 +268,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/videos/";
           
         },
+      },{id: "post-earth-hour-event-with-wwf",
+        
+          title: "Earth Hour Event with WWF",
+        
+        description: "Participated in the Earth Hour event organized by WWF, performing as a member of the DKU Chorus in Kunshan, China.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/earth-hour/";
+          
+        },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
         
           title: "displaying beautiful tables with Bootstrap Tables",
@@ -279,6 +301,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/table-of-contents/";
           
         },
+      },{id: "post-covid-19-recovery",
+        
+          title: "COVID-19 Recovery",
+        
+        description: "Recovered from COVID-19.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/covid-recovery/";
+          
+        },
       },{id: "post-a-post-with-giscus-comments",
         
           title: "a post with giscus comments",
@@ -288,6 +321,39 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2022/giscus-comments/";
+          
+        },
+      },{id: "post-dku-chorus-first-semester-concert",
+        
+          title: "DKU Chorus First Semester Concert",
+        
+        description: "Performed in the DKU Chorus first semester concert as a tenor.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/dku-chorus-concert/";
+          
+        },
+      },{id: "post-nike-u-corp-project-presentation",
+        
+          title: "Nike U-Corp Project Presentation",
+        
+        description: "Presented research findings for a university-corporation collaboration project with Nike, investigating and enhancing the sports experience of young Chinese female adults.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/nike-presentation/";
+          
+        },
+      },{id: "post-started-at-duke-kunshan-university",
+        
+          title: "Started at Duke Kunshan University",
+        
+        description: "Began my undergraduate studies at Duke Kunshan University as part of the Duke–Duke Kunshan dual-degree program.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/started-dku/";
           
         },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",

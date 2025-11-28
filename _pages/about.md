@@ -15,20 +15,23 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-I'm Guangzhi (Allen) Su, a senior in the Duke–Duke Kunshan dual-degree program majoring in Applied Math and Computer Science. I work with Prof. [Kaizhu Huang](https://faculty.dukekunshan.edu.cn/faculty_profiles/kaizhu-huang) (Signature Work) from [Duke Kunshan University](https://www.dukekunshan.edu.cn/) and as a research intern with Profs. [Yiran Chen](https://ece.duke.edu/people/yiran-chen/) and [Neil Zhenqiang Gong](https://people.duke.edu/~zg70/) from [Duke University](https://duke.edu/).
+I'm Guangzhi (Allen) Su, a senior in the Duke–Duke Kunshan dual-degree program majoring in Applied Math and Computer Science. I work with Prof. [Kaizhu Huang](https://faculty.dukekunshan.edu.cn/faculty_profiles/kaizhu-huang) (Signature Work) from [Duke Kunshan University](https://www.dukekunshan.edu.cn/) and as a research intern with Profs. [Yiran Chen](https://ece.duke.edu/people/yiran-chen/) and [Neil Zhenqiang Gong](https://people.duke.edu/~zg70/) from [Duke University](https://duke.edu/). My research spans large language models and multimodal LLMs, multi-agent systems, and generative image models, with a focus on AI safety, efficiency, and clinical applications.
 
-My research focuses on algorithms for multimodal large language models (MLLMs), especially efficiency and robustness. Recent projects span video MLLMs and clinical adverse-event detection, autoregressive image generation, and agentic systems. I'm looking forward to work on directions along with the current work, as well as AI applications in different domain such as healthcare.
+Outside of research, I am the founding president of the DKU Computer Science Club and the DKU Finance Club, and serve as a student advisor for the DKU AI Club, leading initiatives including [HackDKU 2024](https://www.hackdku.org/), [HackDKU 2025](https://www.hackdku25.org/), and the **Technology for Sustainability Symposium**. I was endorsed as Chair of the Student Advocacy Committee of the inaugural [Student Leaders Board at DKU](https://campus-life.dukekunshan.edu.cn/student-leader-board/overview/), where I work to ensure that students’ voices are represented in university policies and campus life. Feel free to check blog section for more information.
 
 ## Research Interests
 
-**AI Safety**
+- **AI Safety**
+  - Adversarial attacks and defenses for deep and multimodal models  
+  - AI-generated content detection and watermarking  
+  - Privacy risks and membership inference attacks
 
-Adversarial attacks and defenses for deep and multimodal models; AI-generated content detection and watermarking; privacy risks and membership inference attacks.
+- **Efficient AI Systems**
+  - Token and patch pruning for large models  
+  - Parallel and distributed training/inference  
+  - Mixture-of-experts (MoE) architectures for scalable deployment
 
-**Efficient AI Systems**
-
-Token and patch pruning for large models, parallel and distributed training/inference, and mixture-of-experts (MoE) architectures for scalable deployment.
-
-**AI in Clinical and Healthcare Applications**
-
-Adverse event detection from clinical videos, AI-assisted decision making for clinicians, and fairness and reliability of models used in healthcare workflows.
+- **AI in Clinical and Healthcare Applications**
+  - Adverse event detection from clinical videos  
+  - AI-assisted decision making for clinicians  
+  - Fairness and reliability of models used in healthcare workflows

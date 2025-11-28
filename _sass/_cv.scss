@@ -164,13 +164,88 @@ a.anchor {
 ul.timeline {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  padding-left: 0;
+  list-style: none;
+  position: relative;
+}
+
+ul.timeline::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--global-theme-color);
 }
 
 ul.timeline li {
   position: relative;
   min-height: 2.2rem;
   color: var(--global-text-color);
-  list-style-position: inside;
+  list-style: none;
+  padding-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+ul.timeline li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 0.25rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--global-theme-color);
+  border: 2px solid var(--global-bg-color);
+  z-index: 1;
+}
+
+ul.timeline li.timeline-year {
+  padding-left: 0;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--global-theme-color);
+}
+
+ul.timeline li.timeline-year::before {
+  display: none;
+}
+
+ul.timeline li.timeline-year:first-child {
+  margin-top: 0;
+}
+
+ul.timeline li .timeline-content {
+  background: var(--global-card-bg-color, rgba(0, 0, 0, 0.03));
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin-top: 0.25rem;
+  border-left: 2px solid var(--global-theme-color);
+}
+
+ul.timeline li .timeline-date {
+  font-weight: 600;
+  color: var(--global-theme-color);
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+ul.timeline li .timeline-text {
+  color: var(--global-text-color);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+ul.timeline li .timeline-text a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+ul.timeline li .timeline-text a:hover {
+  text-decoration: underline;
 }
 
 span.badge-toc {
@@ -181,18 +256,6 @@ span.badge-toc {
   font-weight: 700 !important;
   display: inline-block;
   inline-size: fit-content;
-}
-
-ul.timeline li::before {
-  content: "";
-  min-height: 2.5rem;
-  width: 1px;
-  background: var(--global-text-color);
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  left: 2px;
-  top: -0.5rem;
 }
 
 /*ul.timeline::before {

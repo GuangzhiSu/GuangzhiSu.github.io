@@ -23,16 +23,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "A curated list of project repositories from this site, with short descriptions and links to GitHub.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -482,7 +475,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-cnn-for-scene-classification",
+          section: "News",},{id: "projects-arguard-circuit-breaker-defense-for-ar-models",
+          title: 'ARGuard – Circuit-Breaker Defense for AR Models',
+          description: "A circuit-breaker-powered safety framework for Infinity AR models, combining harmfulness probing, red-team prompt generation, and gated image synthesis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/arguard/";
+            },},{id: "projects-cnn-for-scene-classification",
           title: 'CNN for Scene Classification',
           description: "Comprehensive CNN implementation for scene classification using ResNet-50 transfer learning with comparative analysis of dropout regularization and activation functions.",
           section: "Projects",handler: () => {
@@ -497,6 +495,21 @@ ninja.data = [{
           description: "Comprehensive comparison of Faster R-CNN and YOLOv8 for object detection on a custom dataset with laptop, mouse, keyboard, and utensils.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/object_detection_yolo_rcnn/";
+            },},{id: "projects-paraframe-parallel-agent-framework-for-long-video-qa",
+          title: 'ParaFrame – Parallel Agent Framework for Long-Video QA',
+          description: "A parallel agent-based framework for efficient long-video question answering built on a Mixture-of-Experts (MoE) architecture.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/paraframe/";
+            },},{id: "projects-smoothguard-robust-defense-for-multimodal-llms",
+          title: 'SmoothGuard – Robust Defense for Multimodal LLMs',
+          description: "A lightweight, model-agnostic defense for multimodal large language models that improves robustness against adversarial attacks using noise perturbation and clustering aggregation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/smoothguard/";
+            },},{id: "projects-unilibplus-university-library-management-system",
+          title: 'UniLibPlus – University Library Management System',
+          description: "A Flask-based web application for managing a university library system, including patrons and book catalogs, backed by a MySQL database.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/unilibplus/";
             },},{id: "projects-youtube-video-crawler",
           title: 'YouTube Video Crawler',
           description: "A professional, modular Python tool for scraping and downloading YouTube videos with support for authentication, configurable search parameters, and batch processing.",

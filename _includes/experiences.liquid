@@ -1,0 +1,34 @@
+<div class="experience-timeline">
+  {% for experience in site.data.experiences %}
+    <article class="experience-item">
+      <span class="experience-marker" aria-hidden="true"></span>
+      <div class="experience-card">
+        <div class="experience-heading">
+          <div>
+            {% if experience.category %}
+              <p class="experience-category">{{ experience.category }}</p>
+            {% endif %}
+            <h3>{{ experience.title }}</h3>
+          </div>
+          <time
+            {% if experience.date %}
+              datetime="{{ experience.date }}"
+            {% endif %}
+          >
+            {{- experience.period -}}
+          </time>
+        </div>
+        {% if experience.organization %}
+          <p class="experience-organization">{{ experience.organization }}</p>
+        {% endif %}
+        <p class="experience-description">{{ experience.description }}</p>
+        {% if experience.url %}
+          <a class="experience-link" href="{{ experience.url }}">
+            {{- experience.link_text | default: 'Learn more' }}
+            <span aria-hidden="true">→</span></a
+          >
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

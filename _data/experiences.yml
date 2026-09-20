@@ -1,0 +1,31 @@
+- period: "2026"
+  date: "2026"
+  category: Hackathon award
+  title: "1st Place - Sprout"
+  organization: Carnegie Mellon University
+  description: Won first place at a CMU hackathon with Sprout.
+
+- period: "2025 - Present"
+  date: "2025"
+  category: Venture and hackathon
+  title: Founder & Project Lead - Prospectus.AI
+  organization: "HackDKU 2026, Finance Track"
+  description: Built and deployed an agentic AI platform for prospectus drafting and IPO diagnostics. The project won 1st Place in the Finance Track at HackDKU 2026 and received ¥25,000 in funding support.
+  url: https://www.ai-prospectus.com/
+  link_text: Visit Prospectus.AI
+
+- period: "2026 - Present"
+  date: "2026"
+  category: Research
+  title: Multimodal Clinical Risk Prediction
+  organization: Duke University School of Medicine
+  description: Developing a multimodal clinical forecasting framework that combines chest X-rays and ECG waveforms to predict future patient state and downstream risk.
+
+- period: "2023"
+  date: "2023"
+  category: Fellowship and service
+  title: United Nations Millennium Fellow
+  organization: Millennium Campus Network and United Nations Academic Impact
+  description: Worked on education equity and cross-cultural exchange while building student-led community initiatives at Duke Kunshan University.
+  url: https://www.millenniumfellows.org/fellow/2023/dku/allen-su
+  link_text: View fellowship profile

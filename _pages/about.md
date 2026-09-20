@@ -8,30 +8,34 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Duke Kunshan University</p>
-    <p>Suzhou, Jiangsu, China</p>
+    <p>Carnegie Mellon University</p>
+    <p>Pittsburgh, Pennsylvania, USA</p>
 
 social: true # includes social icons at the bottom of the page
-
+experiences: true # displays the selected experiences timeline
 ---
 
-I'm Guangzhi (Allen) Su, a senior in the Duke–Duke Kunshan dual-degree program majoring in Applied Math and Computer Science. I work with Prof. [Kaizhu Huang](https://faculty.dukekunshan.edu.cn/faculty_profiles/kaizhu-huang) (Signature Work) from [Duke Kunshan University](https://www.dukekunshan.edu.cn/) and as a research intern with Profs. [Yiran Chen](https://ece.duke.edu/people/yiran-chen/) and [Neil Zhenqiang Gong](https://people.duke.edu/~zg70/) from [Duke University](https://duke.edu/). My research spans large language models and multimodal LLMs, multi-agent systems, and generative image models, with a focus on AI safety, efficiency, and clinical applications.
+I'm Guangzhi (Allen) Su, an M.S. student in Artificial Intelligence and Innovation at [Carnegie Mellon University](https://www.cmu.edu/), expected to graduate in May 2028. I graduated magna cum laude from [Duke University](https://duke.edu/) in May 2026 with a B.S. in Applied Mathematics and Computer Science through the Duke–Duke Kunshan dual-degree program.
 
-Outside of research, I am the founding president of the [DKU Computer Science Club](https://www.dkucompsci.org/) and the [DKU Finance Club](https://www.linkedin.com/company/dkufinanceclub/), and serve as a student advisor for the [DKU AI Club](https://www.linkedin.com/company/dku-ai-club/), leading initiatives including [HackDKU 2024](https://www.hackdku.org/), [HackDKU 2025](https://www.hackdku25.org/). I was endorsed as Chair of the Student Advocacy Committee of the inaugural [Student Leaders Board at DKU](https://campus-life.dukekunshan.edu.cn/student-leader-board/overview/), where I work to ensure that students’ voices are represented in university policies and campus life. In 2023, I was also selected as a [United Nations Millennium Fellow](https://www.millenniumfellows.org/fellow/2023/dku/allen-su), working on education equity and cross-cultural exchange. I love singing and sports; I spent four years as a tenor in the [DKU Chorus](https://space.bilibili.com/3537124773071708?spm_id_from=333.337.search-card.all.click) and one year on the [DKU badminton varsity team](https://athletics.dukekunshan.edu.cn/latest-in-athletics/meet-dku-varsity-teams/).
+My work spans large language models, multimodal AI, multi-agent systems, and clinical AI, with a focus on safety, efficiency, and reliability. I currently conduct research with Prof. [Rishi Kamaleswaran](https://medschool.duke.edu/profile/rishi-kamaleswaran) at Duke University School of Medicine on multimodal clinical risk prediction, and previously worked with Prof. [Yiran Chen](https://ece.duke.edu/people/yiran-chen/) on efficient long-video understanding.
+
+Alongside research, I build AI products as the founder of [Prospectus.AI](https://www.ai-prospectus.com/). I also served as the founding president of the [DKU Computer Science Club](https://www.dkucompsci.org/) and the [DKU Finance Club](https://www.linkedin.com/company/dkufinanceclub/), and as a student advisor for the [DKU AI Club](https://www.linkedin.com/company/dku-ai-club/). In 2023, I was selected as a [United Nations Millennium Fellow](https://www.millenniumfellows.org/fellow/2023/dku/allen-su), working on education equity and cross-cultural exchange. Outside of work, I enjoy singing and sports; I spent four years as a tenor in the [DKU Chorus](https://space.bilibili.com/3537124773071708?spm_id_from=333.337.search-card.all.click) and one year on the [DKU badminton varsity team](https://athletics.dukekunshan.edu.cn/latest-in-athletics/meet-dku-varsity-teams/).
 
 ## Research Interests
 
 - **AI Safety**
-  - Adversarial attacks and defenses for deep and multimodal models  
-  - AI-generated content detection and watermarking  
+
+  - Adversarial attacks and defenses for deep and multimodal models
+  - AI-generated content detection and watermarking
   - Privacy risks and membership inference attacks
 
 - **Efficient AI Systems**
-  - Token and patch pruning for large models  
-  - Parallel and distributed training/inference  
+
+  - Token and patch pruning for large models
+  - Parallel and distributed training/inference
   - Mixture-of-experts (MoE) architectures for scalable deployment
 
 - **AI in Clinical and Healthcare Applications**
-  - Adverse event detection from clinical videos  
-  - AI-assisted decision making for clinicians  
+  - Adverse event detection from clinical videos
+  - AI-assisted decision making for clinicians
   - Fairness and reliability of models used in healthcare workflows

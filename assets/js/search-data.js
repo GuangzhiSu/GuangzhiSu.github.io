@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "CV",
+        },{id: "nav-resume",
+          title: "resume",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -520,7 +520,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%67%73%32%38%35@%64%75%6B%65.%65%64%75", "_blank");
+          window.open("mailto:%61%6C%6C%65%6E%73@%61%6E%64%72%65%77.%63%6D%75.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/GuangzhiSu", "_blank");
         },
       },{
         id: 'social-linkedin',

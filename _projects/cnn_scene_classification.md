@@ -3,10 +3,14 @@ layout: page
 title: CNN for Scene Classification
 description: Comprehensive CNN implementation for scene classification using ResNet-50 transfer learning with comparative analysis of dropout regularization and activation functions.
 img: assets/img/scene_classification.png
-importance: 4
-category: work
 github: https://github.com/GuangzhiSu/CNN-for-scene-classification
+importance: 2
+category: coursework
+badge: Duke AIPI 590
+tags: [ResNet-50, Transfer learning, PyTorch]
 ---
+
+{% include project_links.liquid size="lg" %}
 
 This project implements a comprehensive **CNN-based scene classification system** for the **Duke AIPI 590 Applied Computer Vision Course**. The project focuses on transfer learning using ResNet-50 architecture and conducts systematic experiments to evaluate the impact of different regularization techniques and activation functions on model performance.
 

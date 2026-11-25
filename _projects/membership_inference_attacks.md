@@ -3,10 +3,14 @@ layout: page
 title: Membership Inference Attacks on Stock Prediction Models
 description: Investigating vulnerabilities of stock prediction models to Membership Inference Attacks (MIA) using Transformer, LSTM, and MambaStock architectures.
 img: assets/img/stock_prediction.png
-importance: 1
-category: work
 github: https://github.com/IsaacJacobson/ECE661_project
+importance: 4
+category: research
+badge: Duke ECE 661
+tags: [Privacy, Membership inference, Transformer / LSTM / Mamba]
 ---
+
+{% include project_links.liquid size="lg" %}
 
 This project investigates the vulnerabilities of stock prediction models to Membership Inference Attacks (MIA) as part of **ECE661 Computer Engineering Machine Learning and Deep Neural Nets** at Duke University. The research was conducted in collaboration with Isaac Jacobson and Alex Niculescu.
 

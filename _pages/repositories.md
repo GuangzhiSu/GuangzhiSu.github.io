@@ -4,7 +4,7 @@ permalink: /repositories/
 title: repositories
 description: A curated list of project repositories from this site, with short descriptions and links to GitHub.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 {% assign project_repos = site.projects | where_exp: "p", "p.github" | sort: "importance" %}

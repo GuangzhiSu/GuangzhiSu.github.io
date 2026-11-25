@@ -41,6 +41,26 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Featured projects -->
+    {% if page.featured_projects %}
+      {% assign featured = site.projects | where: 'featured', true | sort: 'importance' %}
+      {% if featured.size > 0 %}
+        <h2 id="projects">
+          <a href="{{ '/projects/' | relative_url }}" style="color: inherit">featured projects</a>
+        </h2>
+        <div class="projects featured-projects">
+          <div class="row row-cols-1 row-cols-md-3">
+            {% for project in featured %}
+              {% include projects.liquid %}
+            {% endfor %}
+          </div>
+          <p class="featured-more">
+            <a href="{{ '/projects/' | relative_url }}">See all projects <i class="fa-solid fa-arrow-right"></i></a>
+          </p>
+        </div>
+      {% endif %}
+    {% endif %}
+
     <!-- Selected experiences -->
     {% if page.experiences and site.data.experiences %}
       <h2 id="experience">selected experiences</h2>

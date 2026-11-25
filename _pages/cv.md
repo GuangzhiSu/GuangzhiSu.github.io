@@ -3,7 +3,7 @@ layout: page
 title: resume
 permalink: /cv/
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <!-- Inline PDF viewer -->

@@ -3,10 +3,14 @@ layout: page
 title: Object Detection Using Faster R-CNN and YOLO
 description: Comprehensive comparison of Faster R-CNN and YOLOv8 for object detection on a custom dataset with laptop, mouse, keyboard, and utensils.
 img: assets/img/object_detection.png
-importance: 2
-category: work
 github: https://github.com/GuangzhiSu/Object-Detection-Using-Faster_RCNN-and-YOLO
+importance: 1
+category: coursework
+badge: Duke AIPI 590
+tags: [YOLOv8, Faster R-CNN, ONNX]
 ---
+
+{% include project_links.liquid size="lg" %}
 
 This project implements and compares two state-of-the-art object detection algorithms - **Faster R-CNN** and **YOLOv8** - for the **Duke AIPI 590 Applied Computer Vision Course**. The project involves training, evaluating, and comparing these models' performance on a custom dataset with four object categories: laptop, mouse, keyboard, and utensils.
 

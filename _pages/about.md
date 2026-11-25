@@ -13,6 +13,7 @@ profile:
 
 social: true # includes social icons at the bottom of the page
 experiences: true # displays the selected experiences timeline
+featured_projects: true # shows projects marked `featured: true` below the bio
 ---
 
 I'm Guangzhi (Allen) Su, an M.S. student in Artificial Intelligence and Innovation at [Carnegie Mellon University](https://www.cmu.edu/), expected to graduate in May 2028. I graduated magna cum laude from [Duke University](https://duke.edu/) in May 2026 with a B.S. in Applied Mathematics and Computer Science through the Duke–Duke Kunshan dual-degree program.

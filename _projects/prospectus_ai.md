@@ -6,7 +6,7 @@ img: assets/img/projects/prospectus_ai.png
 importance: 1
 category: products
 featured: true
-badge: Founder
+badge: "🏆 Founder · HackDKU winner"
 tags: [LangGraph, Qwen, Multi-agent, RAG, Next.js, Electron]
 website: https://www.ai-prospectus.com/
 github: https://github.com/GuangzhiSu/Prospectus-AI
@@ -19,6 +19,7 @@ github: https://github.com/GuangzhiSu/Prospectus-AI
 Writing a listing prospectus means weeks of sponsors and lawyers copying numbers out of spreadsheets into hundreds of pages of tightly regulated prose. **Prospectus AI** is the product I founded to compress that first draft from weeks into hours, without pretending a model can replace professional judgment.
 
 <div class="project-highlights">
+  <div class="highlight"><strong>🏆 1st place</strong><span>HackDKU 2026 Finance Track, plus ¥25,000 in funding</span></div>
   <div class="highlight"><strong>2 agents</strong><span>extract evidence, then draft section by section</span></div>
   <div class="highlight"><strong>A–H buckets</strong><span>source data routed to the sections that need it</span></div>
   <div class="highlight"><strong>Every gap flagged</strong><span>missing data is marked, never invented</span></div>

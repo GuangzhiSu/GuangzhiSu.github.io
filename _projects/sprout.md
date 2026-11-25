@@ -6,7 +6,7 @@ img: assets/img/projects/sprout.png
 importance: 3
 category: products
 featured: true
-badge: AI for good
+badge: "🏆 1st place · CMU hackathon"
 tags: [Next.js, LLM state machine, Speech, Cloudflare, Child-centered design]
 github: https://github.com/GuangzhiSu/Sprout
 ---
@@ -18,6 +18,7 @@ github: https://github.com/GuangzhiSu/Sprout
 Walking up to a group of kids and asking *"Can I play too?"* is one of the hardest moments for many autistic children. **Sprout** lets them practice that moment, and others like it, as many times as they need, in a calm and predictable space.
 
 <div class="project-highlights">
+  <div class="highlight"><strong>🏆 1st place</strong><span>at a Carnegie Mellon hackathon (2026)</span></div>
   <div class="highlight"><strong>Speak or tap</strong><span>voice input with typed and card fallbacks</span></div>
   <div class="highlight"><strong>Adaptive</strong><span>prompts fade as the child succeeds</span></div>
   <div class="highlight"><strong>2 audiences</strong><span>a playful child view and a calm caregiver view</span></div>

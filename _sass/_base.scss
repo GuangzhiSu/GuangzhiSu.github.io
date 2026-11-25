@@ -1728,24 +1728,66 @@ figure.cover {
   scroll-margin-top: 4.5rem;
 }
 
-.travel-map {
-  width: 100%;
-  height: 460px;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 0.75rem;
-  overflow: hidden;
+.globe-wrap {
+  position: relative;
+  margin: 1rem 0 0.5rem;
+}
 
-  &.travel-map-wide {
-    height: 420px;
+.globe-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+
+  .globe-btn {
+    padding: 0.3rem 0.9rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    background: var(--global-bg-color);
+    color: var(--global-text-color);
+    font-size: 0.88rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover,
+    &.active {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+    }
+
+    &.active {
+      background: var(--global-theme-color);
+      color: var(--global-hover-text-color, #fff);
+    }
+  }
+}
+
+.travel-globe {
+  width: 100%;
+  height: 560px;
+  cursor: grab;
+  border-radius: 1rem;
+  background: radial-gradient(circle at 50% 50%, rgba(120, 160, 220, 0.12), transparent 70%);
+
+  &:active {
+    cursor: grabbing;
   }
 
   @media (max-width: 576px) {
-    height: 300px;
-
-    &.travel-map-wide {
-      height: 240px;
-    }
+    height: 380px;
   }
+
+  .globe-error {
+    padding-top: 40%;
+    text-align: center;
+    color: var(--global-text-color-light);
+  }
+}
+
+.travel-globe + .travel-legend {
+  justify-content: center;
+  margin-top: 0.5rem;
 }
 
 .travel-chips {

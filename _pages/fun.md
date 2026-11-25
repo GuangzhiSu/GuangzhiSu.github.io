@@ -42,14 +42,21 @@ chart:
   <a href="#usa" class="travel-stat"><strong>10</strong><span>U.S. states</span></a>
 </div>
 
-<p class="travel-legend">
-  <span class="legend-swatch legend-visited"></span> visited
-  <span class="legend-swatch legend-pin"></span> places that matter to me
-  <span class="text-muted">· hover a region for its name</span>
-</p>
+<div class="globe-wrap">
+  <div class="globe-controls">
+    <button type="button" class="globe-btn active" data-view="world">🌏 World</button>
+    <button type="button" class="globe-btn" data-view="china">🇨🇳 China</button>
+    <button type="button" class="globe-btn" data-view="usa">🇺🇸 United States</button>
+  </div>
+  <div id="travel-globe" class="travel-globe"></div>
+  <p class="travel-legend">
+    <span class="legend-swatch legend-visited"></span> visited
+    <span class="legend-swatch legend-pin"></span> places that matter to me
+    <span class="text-muted">· drag to spin, scroll or pinch to zoom, hover a dot for its name</span>
+  </p>
+</div>
 
 <h3 id="china" class="travel-title">🇨🇳 China</h3>
-<div id="map-china" class="travel-map"></div>
 <div class="travel-chips">
   <span class="travel-chip travel-chip-home">Jiangsu · born in Nantong, college in Suzhou</span>
   <span class="travel-chip">Shanghai</span>
@@ -66,8 +73,7 @@ chart:
   <span class="travel-chip">Hong Kong</span>
 </div>
 
-<h3 id="world" class="travel-title">🌏 The world</h3>
-<div id="map-world" class="travel-map travel-map-wide"></div>
+<h3 id="world" class="travel-title">🌏 Countries</h3>
 <div class="travel-chips">
   <span class="travel-chip travel-chip-home">China</span>
   <span class="travel-chip">United States</span>
@@ -77,8 +83,7 @@ chart:
   <span class="travel-chip">Türkiye</span>
 </div>
 
-<h3 id="usa" class="travel-title">🇺🇸 The United States</h3>
-<div id="map-usa" class="travel-map travel-map-wide"></div>
+<h3 id="usa" class="travel-title">🇺🇸 U.S. states</h3>
 <div class="travel-chips">
   <span class="travel-chip travel-chip-home">Pennsylvania · Pittsburgh (CMU)</span>
   <span class="travel-chip travel-chip-home">North Carolina · Durham (Duke)</span>
@@ -94,4 +99,4 @@ chart:
 
 </div>
 
-<script src="{{ '/assets/js/travel-maps.js' | relative_url | bust_file_cache }}"></script>
+<script src="{{ '/assets/js/travel-globe.js' | relative_url | bust_file_cache }}"></script>

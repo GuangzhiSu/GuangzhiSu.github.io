@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Products I&#39;ve shipped, research systems I&#39;ve built, and the coursework that got me here.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-resume",
           title: "resume",
           description: "",
@@ -475,7 +482,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-arguard-circuit-breaker-defense-for-ar-models",
+          section: "News",},{id: "projects-annu-find-care-in-india",
+          title: 'Annu – Find Care in India',
+          description: "Ask in English, Hindi, or Hinglish and get nearby hospitals ranked by real evidence that they offer the care you need, with the source quotes behind every pick.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/annu/";
+            },},{id: "projects-arguard-circuit-breaker-defense-for-ar-models",
           title: 'ARGuard – Circuit-Breaker Defense for AR Models',
           description: "A circuit-breaker-powered safety framework for Infinity AR models, combining harmfulness probing, red-team prompt generation, and gated image synthesis.",
           section: "Projects",handler: () => {
@@ -485,6 +497,11 @@ ninja.data = [{
           description: "Comprehensive CNN implementation for scene classification using ResNet-50 transfer learning with comparative analysis of dropout regularization and activation functions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cnn_scene_classification/";
+            },},{id: "projects-crazyalarm-wake-up-by-completing-missions",
+          title: 'CrazyAlarm – Wake Up by Completing Missions',
+          description: "An iOS alarm you can&#39;t snooze your way out of. Do squats, find a mug, or say a word on the beat, all verified on-device with computer vision and speech recognition.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/crazyalarm/";
             },},{id: "projects-membership-inference-attacks-on-stock-prediction-models",
           title: 'Membership Inference Attacks on Stock Prediction Models',
           description: "Investigating vulnerabilities of stock prediction models to Membership Inference Attacks (MIA) using Transformer, LSTM, and MambaStock architectures.",
@@ -500,16 +517,36 @@ ninja.data = [{
           description: "A parallel agent-based framework for efficient long-video question answering built on a Mixture-of-Experts (MoE) architecture.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/paraframe/";
+            },},{id: "projects-pocket-build-ship-ios-apps-without-a-mac",
+          title: 'Pocket Build – Ship iOS Apps Without a Mac',
+          description: "A web console and native app that trigger cloud iOS builds, from a phone, a Windows PC, or a ChatGPT conversation, and deliver installable IPAs through SideStore or TestFlight.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pocket_build/";
+            },},{id: "projects-prospectus-ai",
+          title: 'Prospectus AI',
+          description: "A multi-agent system that turns a company&#39;s spreadsheets into a structured, citation-ready IPO prospectus working draft for sponsors and counsel.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/prospectus_ai/";
             },},{id: "projects-smoothguard-robust-defense-for-multimodal-llms",
           title: 'SmoothGuard – Robust Defense for Multimodal LLMs',
           description: "A lightweight, model-agnostic defense for multimodal large language models that improves robustness against adversarial attacks using noise perturbation and clustering aggregation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/smoothguard/";
+            },},{id: "projects-sprout-social-practice-for-autistic-children",
+          title: 'Sprout – Social Practice for Autistic Children',
+          description: "A speech-driven practice world where autistic children rehearse real social moments, like joining play at a playground, with an adaptive AI coach and a caregiver dashboard.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sprout/";
             },},{id: "projects-unilibplus-university-library-management-system",
           title: 'UniLibPlus – University Library Management System',
           description: "A Flask-based web application for managing a university library system, including patrons and book catalogs, backed by a MySQL database.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/unilibplus/";
+            },},{id: "projects-voicecraft-on-device-transcription-for-iphone",
+          title: 'VoiceCraft – On-Device Transcription for iPhone',
+          description: "A native iOS recorder with live captions that runs OpenAI Whisper entirely on the phone. No API key, no server, and it works offline once the model is cached.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/voicecraft/";
             },},{id: "projects-youtube-video-crawler",
           title: 'YouTube Video Crawler',
           description: "A professional, modular Python tool for scraping and downloading YouTube videos with support for authentication, configurable search parameters, and batch processing.",

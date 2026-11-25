@@ -8,6 +8,7 @@ category: products
 featured: true
 badge: "🏆 1st place · CMU hackathon"
 tags: [Next.js, LLM state machine, Speech, Cloudflare, Child-centered design]
+demo: https://buildathon-2.replit.app
 github: https://github.com/GuangzhiSu/Sprout
 ---
 
